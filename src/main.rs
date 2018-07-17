@@ -29,4 +29,10 @@ mod tests {
         assert_eq!(op(2, 1, 1), 1 * 1);
         assert_eq!(op(2, 2, 3), 2 * 3);
     }
+
+    #[test]
+    fn op_3() {
+        assert_eq!(op(3, 1, 1), 1i64.pow(1));
+        assert_eq!(op(3, 2, 3), 2i64.pow(3));
+    }
 }
